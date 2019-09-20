@@ -19,7 +19,7 @@ h2 {
   color:DarkSlateBlue;
 }
 .grid{
-	disply: grid;
+	disply: inline-grid;
 	width: 1000px;
 	height: 500px;
 	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
@@ -28,25 +28,25 @@ h2 {
 }
 .gift{
 	grid-area: gift;
-	background: url("./imege/gift.png");
+	background-image: url("./imege/gift.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 .flower{
 	grid-area: flower;
-	background: url("./imege/flower.png");
+	background-image: url("./imege/flower.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 .wrapping{
 	grid-area: wrapping;
-	background: url("./imege/wrap.png");
+	background-image: url("./imege/wrap.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 .deliver{
 	grid-area: deliver;
-	background: url("./imege/deliver.png");
+	background-image: url("./imege/deliver.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
@@ -92,7 +92,7 @@ h3{
 h6{
 
   color: #466995;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 10px;
   text-align: center;
   font-weight: 700;
