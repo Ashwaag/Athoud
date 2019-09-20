@@ -22,27 +22,31 @@ h2 {
 	disply: grid;
 	width: 1000px;
 	height: 500px;
-	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);s
+	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
     grid-template-areas:
-    "Gift! Flowers! Wrapping! WeDeliver!"
+    "Gift! Flowers! Wrapping! WeDeliver!";
 }
 .gift{
-	background: url("./imege/gift.png")
+	grid-area: gift;
+	background: url("./imege/gift.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 .flower{
-	background: url("./imege/flower.png")
+	grid-area: flower;
+	background: url("./imege/flower.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 .wrapping{
-	background: url("./imege/wrap.png")
+	grid-area: wrapping;
+	background: url("./imege/wrap.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 .deliver{
-	background: url("./imege/deliver.png")
+	grid-area: deliver;
+	background: url("./imege/deliver.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
