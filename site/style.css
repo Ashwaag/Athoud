@@ -19,9 +19,9 @@ h2 {
   color:DarkSlateBlue;
 }
 #grid{
-	disply: inline-grid;
-	width: 1000px;
-	height: 500px;
+	display: inline-grid;
+	width: 800px;
+	height: 300px;
 	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
 	grid-template-areas: "Gift! Flowers! wrapping! WeDeliver!";
 }
