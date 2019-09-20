@@ -4,7 +4,7 @@
 }
 .header {
 
-  background: url("./image/front.png")
+  background-image: url("./image/front.png");
   height:200px;
 }
 h2 {
