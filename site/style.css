@@ -18,32 +18,33 @@ h2 {
   top: 20%;
   color:DarkSlateBlue;
 }
-.grid{
+#grid{
 	disply: inline-grid;
 	width: 1000px;
 	height: 500px;
 	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
+	grid-template-areas: "Gift! Flowers! wrapping! WeDeliver!";
 }
- .gift{
+ #gift{
 	grid-area: gift;
 	background-image: url("./imege/gift.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
 
-.flower{
+#flower{
 	grid-area: flower;
 	background-image: url("./imege/flower.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
-.wrapping{
+#wrapping{
 	grid-area: wrapping;
 	background-image: url("./imege/wrap.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 }
-.deliver{
+#deliver{
 	grid-area: deliver;
 	background-image: url("./imege/deliver.png");
 	font-family: 'Courgette', cursive;
@@ -80,7 +81,7 @@ li:hover {
 
 h3{
   color: #4B0082;
-  font-family: 'Dancing Script', cursive
+  font-family: 'Dancing Script', cursive;
   font-size: 18px;
   text-align: center;
   font-weight: 700;
@@ -101,7 +102,7 @@ h6{
 }
 
 footer {
-  background-color: #DBE9EE;
+  background-color: #D8BFD8;
   text-align: center;
   height: 70px;
 }
