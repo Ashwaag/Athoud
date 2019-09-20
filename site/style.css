@@ -30,6 +30,7 @@ h2 {
 	background-image: url("./imege/gift.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
+	text-align: center;
 }
 
 #flower{
@@ -37,18 +38,21 @@ h2 {
 	background-image: url("./imege/flower.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
+	text-align: center;
 }
 #wrapping{
 	grid-area: wrapping;
 	background-image: url("./imege/wrap.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
+	text-align: center;
 }
 #deliver{
 	grid-area: deliver;
 	background-image: url("./imege/deliver.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
+	text-align: center;
 }
 
 .gift:hover{
