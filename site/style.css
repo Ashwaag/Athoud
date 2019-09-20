@@ -9,7 +9,7 @@
 }
 h2 {
 
-  font-family: font-family: 'Charmonman', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 40px;
   line-height: 76px;
   margin: 0;
@@ -22,8 +22,7 @@ h2 {
 	disply: grid;
 	width: 1000px;
 	height: 500px;
-	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
-
+	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);s
     grid-template-areas:
     "Gift! Flowers! Wrapping! WeDeliver!"
 }
