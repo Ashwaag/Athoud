@@ -4,7 +4,8 @@
 }
 .header {
 
-  background: url("./image/front.png") 
+  background: url("./image/front.png")
+  height:200px;
 }
 h2 {
 
@@ -22,7 +23,7 @@ h2 {
 	width: 1000px;
 	height: 500px;
 	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
-    grid-template-rows: 500px minmax(100px, 500px);
+
     grid-template-areas:
     "Gift! Flowers! Wrapping! WeDeliver!"
 }
@@ -92,5 +93,5 @@ h6{
 footer {
   background-color: #DBE9EE;
   text-align: center;
-  height: 100px;
+  height: 70px;
 }
