@@ -1,0 +1,96 @@
+
+* {
+  box-sizing: border-box;
+}
+.header {
+
+  background: url("./image/front.png") 
+}
+h2 {
+
+  font-family: font-family: 'Charmonman', cursive;
+  font-size: 40px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  color:SlateBlue;
+}
+.grid{
+	disply: grid;
+	width: 1000px;
+	height: 500px;
+	grid-template-colums: repeat(4, 1fr) minmax(100px, 250px);
+    grid-template-rows: 500px minmax(100px, 500px);
+    grid-template-areas:
+    "Gift! Flowers! Wrapping! WeDeliver!"
+}
+.gift{
+	background: url("./imege/gift.png")
+}
+.flower{
+	background: url("./imege/flower.png")
+}
+.wrapping{
+	background: url("./imege/wrap.png")
+}
+.deliver{
+	background: url("./imege/deliver.png")
+}
+
+li {
+
+  display: inline-block;
+  width: 200px;
+  position: relative;
+  top: 20px;
+  color: #4B0082;
+  font-family:"Oswald", "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.gift:hover{
+	opacity:0.5;
+}
+.flower:hover{
+	opacity:0.5;
+}
+.wrapping:hover{
+	opacity:0.5;
+}
+.deliver:hover{
+	opacity:0.5;
+}
+li:hover {
+  color: #8A2BE2;
+}
+
+h3{
+  color: #4B0082;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h6{
+
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+  height: 100px;
+}
