@@ -16,7 +16,7 @@ h2 {
   position: relative;
   text-align: center;
   top: 20%;
-  color:SlateBlue;
+  color:DarkSlateBlue;
 }
 .grid{
 	disply: grid;
@@ -28,15 +28,23 @@ h2 {
 }
 .gift{
 	background: url("./imege/gift.png")
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
 }
 .flower{
 	background: url("./imege/flower.png")
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
 }
 .wrapping{
 	background: url("./imege/wrap.png")
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
 }
 .deliver{
 	background: url("./imege/deliver.png")
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
 }
 
 li {
@@ -46,7 +54,7 @@ li {
   position: relative;
   top: 20px;
   color: #4B0082;
-  font-family:"Oswald", "sans-serif";
+  font-family: 'Courgette', cursive;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
