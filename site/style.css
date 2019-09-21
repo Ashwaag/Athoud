@@ -18,15 +18,15 @@ h2 {
   top: 20%;
   color:DarkSlateBlue;
 }
-#grid{
+.grid{
 	display: grid;
 	width: 800px;
 	height: 300px;
-	grid-template-colums: repeat(4, 1fr) ;
+	grid-template-columns: repeat(4, 1fr) ;
 	grid-template-rows: 300px;
 	grid-template-areas: "Gift!" "Flowers!" "wrapping!" "WeDeliver!";
 }
- #gift{
+.gift{
 	grid-area: gift;
 	background-image: url("./imege/gift.png");
 	font-family: 'Courgette', cursive;
@@ -34,21 +34,21 @@ h2 {
 	text-align: center;
 }
 
-#flower{
+.flower{
 	grid-area: flower;
 	background-image: url("./imege/flower.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 	text-align: center;
 }
-#wrapping{
+.wrapping{
 	grid-area: wrapping;
 	background-image: url("./imege/wrap.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 	text-align: center;
 }
-#deliver{
+.deliver{
 	grid-area: deliver;
 	background-image: url("./imege/deliver.png");
 	font-family: 'Courgette', cursive;
