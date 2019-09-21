@@ -28,13 +28,10 @@ h2 {
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 	text-align: center;
-	
-}
-
-.gift{
 	grid-area: gift;
 	background-image: url("./imege/gift.png");
 }
+
 
 li {
 
