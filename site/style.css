@@ -20,19 +20,37 @@ h2 {
 }
 .grid{
 	display: grid;
-	width: 800px;
-	height: 300px;
+
 	grid-template-columns: repeat(4, 200px);
-	grid-template-rows: 300px;
-	grid-template-areas: "Gift!" "Flowers!" "wrapping!" "WeDeliver!";
+	grid-template-rows: auto auto auto auto;
+	
+}
+
+.gift{
+	background-image: url("./image/gift.png");
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 	text-align: center;
-	grid-area: gift;
-	background-image: url("./imege/gift.png");
+	
 }
-
-
+.flower{
+	background-image: url("./image/flower.png");
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
+	text-align: center;
+}
+.wrapping{
+	background-image: url("./image/wrap.png");
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
+	text-align: center;
+}
+.deliver{
+	background-image: url("./image/deliver.png");
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
+	text-align: center;
+}
 li {
 
   display: inline-block;
