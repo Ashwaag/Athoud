@@ -28,11 +28,13 @@ h2 {
 	font-family: 'Courgette', cursive;
 	color:DarkSlateBlue;
 	text-align: center;
+	
 }
 
 .gift{
 	grid-area: gift;
 	background-image: url("./imege/gift.png");
+}
 
 li {
 
@@ -46,6 +48,7 @@ li {
   font-weight: 300;
   text-transform: uppercase;
 }
+
 li:hover {
   color: #8A2BE2;
 }
