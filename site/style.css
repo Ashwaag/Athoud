@@ -22,7 +22,7 @@ h2 {
 	display: grid;
 	width: 800px;
 	height: 300px;
-	grid-template-columns: repeat(4, 1fr) ;
+	grid-template-columns: repeat(4, 200px);
 	grid-template-rows: 300px;
 	grid-template-areas: "Gift!" "Flowers!" "wrapping!" "WeDeliver!";
 	font-family: 'Courgette', cursive;
