@@ -25,35 +25,29 @@ h2 {
 	grid-template-columns: repeat(4, 1fr) ;
 	grid-template-rows: 300px;
 	grid-template-areas: "Gift!" "Flowers!" "wrapping!" "WeDeliver!";
+	font-family: 'Courgette', cursive;
+	color:DarkSlateBlue;
+	text-align: center;
 }
 .gift{
 	grid-area: gift;
 	background-image: url("./imege/gift.png");
-	font-family: 'Courgette', cursive;
-	color:DarkSlateBlue;
-	text-align: center;
 }
 
 .flower{
 	grid-area: flower;
 	background-image: url("./imege/flower.png");
-	font-family: 'Courgette', cursive;
-	color:DarkSlateBlue;
-	text-align: center;
+	
 }
 .wrapping{
 	grid-area: wrapping;
 	background-image: url("./imege/wrap.png");
-	font-family: 'Courgette', cursive;
-	color:DarkSlateBlue;
-	text-align: center;
+	
 }
 .deliver{
 	grid-area: deliver;
 	background-image: url("./imege/deliver.png");
-	font-family: 'Courgette', cursive;
-	color:DarkSlateBlue;
-	text-align: center;
+
 }
 
 .gift:hover{
