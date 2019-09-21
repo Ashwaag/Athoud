@@ -30,6 +30,39 @@ h2 {
 	text-align: center;
 }
 
+.gift{
+	grid-area: gift;
+	background-image: url("./imege/gift.png");
+}
+
+.flower{
+	grid-area: flower;
+	background-image: url("./imege/flower.png");
+	
+}
+.wrapping{
+	grid-area: wrapping;
+	background-image: url("./imege/wrap.png");
+	
+}
+.deliver{
+	grid-area: deliver;
+	background-image: url("./imege/deliver.png");
+
+}
+
+.gift:hover{
+	opacity:0.5;
+}
+.flower:hover{
+	opacity:0.5;
+}
+.wrapping:hover{
+	opacity:0.5;
+}
+.deliver:hover{
+	opacity:0.5;
+}
 li {
 
   display: inline-block;
