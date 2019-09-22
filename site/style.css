@@ -33,6 +33,7 @@ h2 {
 	background: url("./image/gift.png") no-repeat;
     background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
+	font-size: 20px;
 	color:DarkSlateBlue;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
@@ -42,6 +43,7 @@ h2 {
 	background: url("./image/flower.png") no-repeat;
 	background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
+	font-size: 20px;
 	color:DarkSlateBlue;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
@@ -50,6 +52,7 @@ h2 {
 	background: url("./image/wrap.png") no-repeat;
 	background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
+	font-size: 20px;
 	color:DarkSlateBlue;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
@@ -58,6 +61,7 @@ h2 {
 	background: url("./image/deliver.png") no-repeat;
 	background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
+	font-size: 20px;
 	color:DarkSlateBlue;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
