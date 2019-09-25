@@ -33,7 +33,7 @@ h2 {
 	background: url("./image/gift.png") no-repeat;
     background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
-	font-size: 20px;
+	font-size: 40px;
 	color:DarkRed;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
@@ -44,7 +44,7 @@ h2 {
 	background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
 	font-size: 20px;
-	color:DarkRed;
+	color:Indigo;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
 }
@@ -62,7 +62,7 @@ h2 {
 	background-size: 100% 100%;
 	font-family: 'Courgette', cursive;
 	font-size: 20px;
-	color:DarkRed;
+	color:Indigo;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, 0.8);
 }
