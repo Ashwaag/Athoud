@@ -1,0 +1,16 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.address{
+  display: inline-block;
+  width: 200px;
+  position: center center;
+  top: 20px;
+  color: #4B0082;
+  font-family: 'Courgette', cursive;
+  font-size: 16px;
+  font-weight: 300;
+ 
+}
