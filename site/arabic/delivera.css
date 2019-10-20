@@ -1,0 +1,30 @@
+body{
+	  background: linear-gradient(to bottom, white, #BC8F8F);
+    color: white;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2{
+   font-family: 'Rakkas', cursive;
+   font-size: 20px;
+   line-height: 76px;
+   position: relative;
+   text-align: center;
+   top: 20%;
+   color:DarkSlateBlue;
+}
+h3{
+  color: #4B0082;
+  font-family: 'Rakkas', cursive;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+}
+h4{
+  color:#4B0082;
+  font-size: 12px;
+  text-align: center;
+}

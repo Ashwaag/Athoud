@@ -4,26 +4,26 @@ body{
 }
 
 h2{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Amiri', serif;
   color:Indigo;
   padding-left: 20px;
   font-size: 40px;
   line-height: 76px;
   margin: 0;
   position: relative;
-  text-align: left;
+  text-align: right;
   top: 20%;
   color:Indigo;
 }
 p{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Amiri', serif;
   color:Indigo;
   padding-left: 20px;
   font-size: 20px;
   line-height: 40px;
   margin: 0;
   position: relative;
-  text-align: left;
+  text-align: right;
   top: 20%;
 }
 
@@ -120,4 +120,5 @@ span {
 }
 h4{
   font-size: 12px;
+  text-align: right;
 }

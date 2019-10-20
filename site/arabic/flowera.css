@@ -1,18 +1,21 @@
 body{
 	background: PaleTurquoise;
-	position: absolute;
 }
-
+.img{
+	position: relative;
+	right:-1050px;
+}
 h3{
 
 	font-family: 'Courgette', cursive;
 	font-size: 20px;
 	color:Teal;
+	text-align: right;
 
 }
 
 
 h4{
 	font-size: 12px;
-	text-align: left;
+	text-align: right;
 }

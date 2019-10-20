@@ -15,7 +15,7 @@
   width: 80px;
   height: 80px;
   margin: -280px 40px 54px -34px;
-  background:url("./image/heart.png");
+  background:url(".././image/heart.png");
   background-size: 100% 100%;
 
   -webkit-animation: fallingHeart 10s infinite linear;
@@ -91,23 +91,24 @@
 }
 
 h2{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Amiri', serif;
   padding-left: 20px;
   font-size: 40px;
   line-height: 76px;
-  text-align: left;
+  text-align: right;
   top: 20%;
   color:DarkSlateBlue;
 }
 p{
-  font-family: 'Courgette', cursive;
+  font-family: 'Amiri', serif;
   padding-left: 20px;
   font-size: 20px;
   color:Khaki;
-  text-align: left;
+  text-align: right;
 }
+
 h4{
   font-size: 12px;
-
+  text-align: right;
 }
 

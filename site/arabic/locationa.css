@@ -2,19 +2,20 @@
 * {
   box-sizing: border-box;
 }
-
+.map{
+position: relative;
+right: -900px;
+}
 .address{
-  display: inline-block;
-  width: 200px;
-  position: center center;
   top: 20px;
   color: #4B0082;
   font-family: 'Courgette', cursive;
   font-size: 16px;
   font-weight: 300;
+  text-align: right;
  
 }
 h4{
 	font-size: 12px;
-	text-align: left;
+	text-align: right;
 }
